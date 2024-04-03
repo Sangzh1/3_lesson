@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            width: 95%;
+            margin-inline:auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .list{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .color{
+            display: block;
+            width: 25px;
+            height: 25px;
+            background: #000;
+        }
+        .list-item{
+            border:1px solid rgb(164, 24, 24);
+            padding: 10px;
+            border-radius: 11px;
+        }
+    </style>
+    <div class="container">
+        <ul id="productsList"  class="list">
+
+        </ul>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
